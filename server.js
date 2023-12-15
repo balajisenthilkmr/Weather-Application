@@ -8,6 +8,7 @@ app.use('/', express.static(__dirname + '/assets'));
 app.set('view engine','ejs');
 app.set('views','./views')
 
+
 app.get('/',(req, res) => {res.render('index')})
 
 app.post("/history",async (req, res) => {
