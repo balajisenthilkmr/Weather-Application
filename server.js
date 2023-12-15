@@ -20,4 +20,4 @@ app.post("/history",async (req, res) => {
 })
 
 
-app.listen(9000, () => {console.log("Server is running... [PORT:9000]");});
+app.listen(8000, () => {console.log("Server is running... [PORT:9000]");});
